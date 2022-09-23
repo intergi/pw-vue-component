@@ -27,13 +27,13 @@ npm run build
 ### Install components Vue
 
 ```
-npm i @playwire/pw-vue-component
+npm i @intergi/pw-vue-component
 ```
 
 ### Import from Vue App
 
 ```
 <script setup>
-import { Ramp, RampUnit } from '@playwire/pw-vue-component';
+import { Ramp, RampUnit } from '@intergi/pw-vue-component';
 </script>
 ```

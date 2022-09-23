@@ -1,5 +1,5 @@
 <script setup>
-import { Ramp, RampUnit } from '@playwire/pw-vue-component';
+import { Ramp, RampUnit } from '@intergi/pw-vue-component';
 </script>
 
 <template>
