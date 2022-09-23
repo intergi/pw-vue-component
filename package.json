@@ -1,6 +1,6 @@
 {
   "name": "@intergi/pw-vue-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./dist/ramp.umd.js",
   "module": "./dist/ramp.es.js",
   "exports": {
