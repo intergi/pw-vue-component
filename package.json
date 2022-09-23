@@ -1,12 +1,10 @@
 {
   "name": "@intergi/pw-vue-component",
-  "version": "1.0.4",
-  "main": "./dist/ramp.umd.js",
+  "version": "1.0.5",
   "module": "./dist/ramp.es.js",
   "exports": {
     ".": {
-      "import": "./dist/ramp.es.js",
-      "require": "./dist/ramp.umd.js"
+      "import": "./dist/ramp.es.js"
     }
   },
   "license": "Apache-2.0",
@@ -23,6 +21,7 @@
     "vue"
   ],
   "dependencies": {
+    "@intergi/pw-vue-component": "^1.0.4",
     "vue": "^3.2.38"
   },
   "devDependencies": {
