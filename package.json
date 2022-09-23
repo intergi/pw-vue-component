@@ -1,6 +1,6 @@
 {
   "name": "@playwire/pw-vue-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/ramp.umd.js",
   "module": "./dist/ramp.es.js",
   "exports": {
@@ -14,7 +14,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview --port 4173",
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "keywords": [
     "ramp",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
+    "standard-version": "^9.5.0",
     "vite": "^3.0.9"
   },
   "bugs": {
