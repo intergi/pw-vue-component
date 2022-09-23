@@ -1,6 +1,6 @@
 {
   "name": "@intergi/pw-vue-component",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "module": "./dist/ramp.es.js",
   "exports": {
     ".": {
@@ -21,7 +21,7 @@
     "vue"
   ],
   "dependencies": {
-    "@intergi/pw-vue-component": "^1.0.4",
+    "@intergi/pw-vue-component": "^1.0.5",
     "vue": "^3.2.38"
   },
   "devDependencies": {
