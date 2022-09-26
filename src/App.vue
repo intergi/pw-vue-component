@@ -5,11 +5,9 @@ import { Ramp, RampUnit } from '@intergi/pw-vue-component';
 <template>
   <header>
     <img
-      alt="Vue logo"
+      alt="PW logo"
       class="logo"
-      src="./assets/logo.svg"
-      width="125"
-      height="125"
+      src="./assets/logo.webp"
     />
   </header>
 
