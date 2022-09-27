@@ -15,7 +15,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 4173",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "test:open": "peeky open",
+    "test": "peeky run"
   },
   "keywords": [
     "ramp",
@@ -27,7 +29,11 @@
     "vue": "^3.2.38"
   },
   "devDependencies": {
+    "@peeky/server": "^0.14.0",
+    "@peeky/test": "^0.14.1",
     "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/test-utils": "^2.0.2",
+    "jsdom": "^20.0.0",
     "standard-version": "^9.5.0",
     "vite": "^3.0.9"
   },
