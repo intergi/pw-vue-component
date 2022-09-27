@@ -1,14 +1,10 @@
 <script setup>
-import { Ramp, RampUnit } from '@intergi/pw-vue-component';
+import { Ramp, RampUnit } from '@playwire/pw-vue-component';
 </script>
 
 <template>
   <header>
-    <img
-      alt="PW logo"
-      class="logo"
-      src="./assets/logo.webp"
-    />
+    <img alt="PW logo" class="logo" src="./assets/logo.webp" />
   </header>
 
   <main>
